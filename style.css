@@ -97,6 +97,39 @@ h3 {
 }
 
 /******************** CERTIFICATION SECTION ********************/
+.row {
+
+}
+
+article {
+    
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article {
+    border: 1px solid tomato;
+    padding: 1rem;
+    flex-basis: 100%;
+}
+
+
 img {
     width: 300px;
+}
+
+@media(min-width: 576px) {
+    article {
+        flex-basis: 50%;
+    }
+}
+
+@media(min-width: 992px) {
+    article {
+        flex-basis: 25%;
+    }
 }
