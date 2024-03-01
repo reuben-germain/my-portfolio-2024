@@ -32,8 +32,8 @@ body {
 /* PROFILE SECTION */
 
 header {
-    background-color: darkblue;
-    color: aliceblue;
+    background-color: #2f3061;
+    color: #f7fff7;
 }
 .content-wrapper {
     max-width: 50em;
@@ -64,4 +64,34 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+/* WORK EXPERIENCE SECTION */
+
+.work-experience {
+    background: #a1c6d7;
+}
+
+.item-details h3 + p {
+    font-style: italic;
+}
+
+.item-details h3~p {
+    margin: 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+/******************** EDUCATION SECTION ********************/
+.education {
+    background-image: url(imgs/unsplash/joanna-kosinska-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 6.25rem;
+}
+
+.education p {
+    width: 65%;
 }
