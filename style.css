@@ -98,14 +98,6 @@ h3 {
 
 /******************** CERTIFICATION SECTION ********************/
 .row {
-
-}
-
-article {
-    
-}
-
-.row {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -121,6 +113,53 @@ article {
 img {
     width: 300px;
 }
+
+/******************** CONTACT / SOCIAL MEDIA FOOTER SECTION ********************/
+
+footer {
+    background: #343434;
+    color: #f7fff7;
+}
+
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact-list li {
+    margin: 0;
+    position: relative;
+}
+
+.contact-list li i {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #343434;
+    padding: 10px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+    color: #ffe66d;
+    text-decoration: none;
+}
+
+footer .content-wrapper h2 {
+    text-align: center;
+}
+
+
+/******************** MEDIA QURIES ********************/
 
 @media(min-width: 576px) {
     article {
