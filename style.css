@@ -27,6 +27,9 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
+    background: linear-gradient(45deg, #a1c6d7, #2f3061);
+    background-size: 20%;
+    animation: color 12s ease-in-out infinite;
 }
 
 /* PROFILE SECTION */
@@ -101,10 +104,12 @@ h3 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    background: linear-gradient(30deg, #2f3061, #a1c6d7);
+    width: 100%;
+
 }
 
 article {
-    border: 1px solid tomato;
     padding: 1rem;
     flex-basis: 100%;
 }
@@ -114,6 +119,13 @@ img {
     width: 18.75rem;
 }
 
+h2 #cert {
+margin-left: 3.125rem;
+}
+
+h3 span {
+margin-left: 3.438rem;
+}
 /******************** CONTACT / SOCIAL MEDIA FOOTER SECTION ********************/
 
 footer {
@@ -144,7 +156,6 @@ footer {
     background: #343434;
     padding: 0.625em;
     border-radius: 50%;
-    border: 3px solid red;
 }
 
 .contact-list a {
