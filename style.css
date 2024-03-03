@@ -27,8 +27,9 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
-    background: linear-gradient(45deg, #a1c6d7, #2f3061);
-    background-size: 20%;
+    /*background: linear-gradient(45deg, #a1c6d7, #2f3061);*/
+    background: url(imgs/unsplash/sharon-mccutcheon-unsplash.jpg);
+    background-size: 80%;
     animation: color 12s ease-in-out infinite;
 }
 
@@ -104,7 +105,9 @@ h3 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background: linear-gradient(30deg, #2f3061, #a1c6d7);
+    /*background: linear-gradient(30deg, #2f3061, #a1c6d7);*/
+    background: url(imgs/unsplash/sharon-mccutcheon-unsplash.jpg);
+    background-size: 40%;
     width: 100%;
 
 }
