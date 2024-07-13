@@ -151,6 +151,25 @@ footer .content-wrapper h2 {
 /* Media query for small devices */
 
 @media (max-width: 768px) {
+    .content-wrapper h1 {
+        font-size: 3.125rem;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .content-wrapper h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        text-decoration: underline overline;
+    }
+    .job-details h3 {
+        font-size: 1.25rem;
+    }
+    p {
+        font-size: 0.7rem;
+    }
+    ul {
+        font-size: 0.7rem;
+    }
     .education h2 {
         color: #343434;
     }
