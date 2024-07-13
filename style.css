@@ -100,42 +100,16 @@ h3 {
     width: 65%;
 }
 
-/******************** CERTIFICATION SECTION ********************/
-.row {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    /*background: linear-gradient(30deg, #2f3061, #a1c6d7);*/
-    background: url(imgs/unsplash/sharon-mccutcheon-unsplash.jpg);
-    background-size: 40%;
-    width: 100%;
-
+.education span {
+    color: lavenderblush;
 }
 
-article {
-    padding: 1rem;
-    flex-basis: 100%;
-}
-
-
-img {
-    width: 18.75rem;
-}
-
-h2 #cert {
-margin-left: 3.125rem;
-}
-
-h3 span {
-margin-left: 3.438rem;
-}
 /******************** CONTACT / SOCIAL MEDIA FOOTER SECTION ********************/
 
 footer {
     background: #343434;
     color: #f7fff7;
 }
-
 
 .contact-list {
     list-style-type: none;
@@ -172,7 +146,6 @@ footer .content-wrapper h2 {
     text-align: center;
 }
 
-
 /******************** MEDIA QURIES ********************/
 
 @media(min-width: 576px) {
@@ -190,6 +163,12 @@ footer .content-wrapper h2 {
 /* Media query for small devices */
 
 @media (max-width: 768px) {
+    .education h2 {
+        color: #343434;
+    }
+    .education {
+        color: lavenderblush;
+    }
     .contact-list {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center align items horizontally */
